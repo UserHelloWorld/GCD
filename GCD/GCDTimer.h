@@ -6,6 +6,8 @@
 //  Copyright © 2018年 apple. All rights reserved.
 //
 
+// 同一个对象不能重复调用
+
 #import <Foundation/Foundation.h>
 
 /**
