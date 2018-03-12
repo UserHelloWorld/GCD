@@ -13,6 +13,8 @@
 		186E64502056505E00376E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186E644F2056505E00376E71 /* Assets.xcassets */; };
 		186E64532056505E00376E71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186E64512056505E00376E71 /* LaunchScreen.storyboard */; };
 		186E64562056505E00376E71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E64552056505E00376E71 /* main.m */; };
+		186E645D20565D2500376E71 /* GCD图.png in Resources */ = {isa = PBXBuildFile; fileRef = 186E645C20565D2400376E71 /* GCD图.png */; };
+		186E648A2056846700376E71 /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E64892056846600376E71 /* GCDTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		186E64522056505E00376E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		186E64542056505E00376E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186E64552056505E00376E71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		186E645C20565D2400376E71 /* GCD图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GCD图.png"; sourceTree = "<group>"; };
+		186E64882056846600376E71 /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
+		186E64892056846600376E71 /* GCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				186E64472056505E00376E71 /* AppDelegate.m */,
 				186E64492056505E00376E71 /* ViewController.h */,
 				186E644A2056505E00376E71 /* ViewController.m */,
+				186E64882056846600376E71 /* GCDTimer.h */,
+				186E64892056846600376E71 /* GCDTimer.m */,
+				186E645C20565D2400376E71 /* GCD图.png */,
 				186E644C2056505E00376E71 /* Main.storyboard */,
 				186E644F2056505E00376E71 /* Assets.xcassets */,
 				186E64512056505E00376E71 /* LaunchScreen.storyboard */,
@@ -132,6 +140,7 @@
 				186E64532056505E00376E71 /* LaunchScreen.storyboard in Resources */,
 				186E64502056505E00376E71 /* Assets.xcassets in Resources */,
 				186E644E2056505E00376E71 /* Main.storyboard in Resources */,
+				186E645D20565D2500376E71 /* GCD图.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186E648A2056846700376E71 /* GCDTimer.m in Sources */,
 				186E644B2056505E00376E71 /* ViewController.m in Sources */,
 				186E64562056505E00376E71 /* main.m in Sources */,
 				186E64482056505E00376E71 /* AppDelegate.m in Sources */,
