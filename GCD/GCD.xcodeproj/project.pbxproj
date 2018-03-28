@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180F092220576D9B009315E1 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 180F092120576D9B009315E1 /* ViewController1.m */; };
 		186E64482056505E00376E71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E64472056505E00376E71 /* AppDelegate.m */; };
 		186E644B2056505E00376E71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E644A2056505E00376E71 /* ViewController.m */; };
 		186E644E2056505E00376E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186E644C2056505E00376E71 /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180F092020576D9B009315E1 /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		180F092120576D9B009315E1 /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		186E64432056505E00376E71 /* GCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186E64462056505E00376E71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		186E64472056505E00376E71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				186E64472056505E00376E71 /* AppDelegate.m */,
 				186E64492056505E00376E71 /* ViewController.h */,
 				186E644A2056505E00376E71 /* ViewController.m */,
+				180F092020576D9B009315E1 /* ViewController1.h */,
+				180F092120576D9B009315E1 /* ViewController1.m */,
 				186E64882056846600376E71 /* GCDTimer.h */,
 				186E64892056846600376E71 /* GCDTimer.m */,
 				186E645C20565D2400376E71 /* GCD图.png */,
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180F092220576D9B009315E1 /* ViewController1.m in Sources */,
 				186E648A2056846700376E71 /* GCDTimer.m in Sources */,
 				186E644B2056505E00376E71 /* ViewController.m in Sources */,
 				186E64562056505E00376E71 /* main.m in Sources */,

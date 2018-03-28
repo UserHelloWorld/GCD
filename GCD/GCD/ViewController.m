@@ -26,7 +26,7 @@
 
 
 #import "ViewController.h"
-#import "GCDTimer.h"
+#import "ViewController1.h"
 
 @interface ViewController ()
 @property (strong, nonatomic) dispatch_queue_t queue;
@@ -36,17 +36,18 @@
 @implementation ViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [[GCDTimer instance] startTimer:10 block:^{
-        
-    }];
+   
     [self syncSerial];
-    
     
     self.queue = dispatch_queue_create("abc", DISPATCH_QUEUE_SERIAL);
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
 //    [self asyncConcurrent];
+    
+    ViewController1 *vc = [[ViewController1 alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
+    
+    
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
         NSLog(@"start");
         dispatch_async(self.queue, ^{
